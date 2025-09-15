@@ -3,9 +3,10 @@
 
 ## 1. Prerequisites
 
-* macOS with **zsh installed** (default on recent macOS).
-* **Git** installed.
+* macOS with **zsh installed** (default on modern macOS).
+* **Git** installed (obviously).
 * VS Code installed (optional, for settings).
+* Have MacOS Developer Tools Installed
 
 Check Git installation:
 
