@@ -1,6 +1,6 @@
 \#!/bin/bash
 
-GITHUB\_REPO=[https://github.com/yourusername/dotfiles.git](https://github.com/yourusername/dotfiles.git)
+GITHUB\_REPO=[https://github.com/yourusername/dotfiles.git](https://github.com/ItzzSadra/dotfiles.git)
 TEMP\_DIR=\$(mktemp -d)
 
 echo "Cloning dotfiles repo..."
@@ -22,6 +22,9 @@ echo "Setting up VS Code settings..."
 VSCODE\_DIR=\~/Library/Application\ Support/Code/User
 mkdir -p "\$VSCODE\_DIR"
 cp "\$TEMP\_DIR/settings.json" "\$VSCODE\_DIR/settings.json"
+
+# --- Homebrew ---
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # --- JetBrains Mono Font ---
 
