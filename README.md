@@ -1,4 +1,5 @@
-# My Dotfiles - For MacOS This is my dotfiles (wouldn't call it dotfiles) for my laptop. This is essentially just configuring zsh and zshrc easily because i am tired of Maanually configuring these (Especially VSCode Configurations)
+# My Dotfiles - For MacOS
+This is my dotfiles (wouldn't call it dotfiles) for my laptop. This is essentially just configuring zsh and zshrc easily because i am tired of Maanually configuring these (Especially VSCode Configurations)
 ---
 
 ## 1. Prerequisites
